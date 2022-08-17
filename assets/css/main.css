@@ -1,0 +1,145 @@
+:root{
+    --color-primary: #FFE680;
+    --color-secondary: #8DD35F;
+    --color-tertiary: #b6d3a3;
+    }
+
+body{
+    background-image: linear-gradient();
+    /* display: flex; */
+}
+
+header{
+    background-color: var(--color-secondary);
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+.logo{
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    border-radius: 10px;
+    align-self: flex-start;
+}
+
+.logo i{
+    font-size: 50px;
+    color: #221e10;
+}
+
+.top{
+    display: flex;
+    gap: 20px;
+}
+
+.top .item{
+    border: none;
+    margin-top: 25px;
+    background-color: var(--color-primary);
+    padding: 5px 10px;
+    border-radius: 10px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.container-out{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: var(--color-primary);
+}
+
+.signup{
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.signup > div label{
+    display: none;
+}
+
+.signup > div{
+    background-color: var(--color-secondary);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 210px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.signup input:hover {
+    color: var(--color-tertiary);
+    cursor: pointer;
+}
+
+.signup input:focus + .icon{
+    color: var(--color-tertiary);
+}
+
+.signup > div input{
+    border: none;
+    outline: none;
+    flex: 1;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.password .icon{
+    order: 3;
+}
+
+.password input{
+    order: 2;
+}
+
+.password .eye{
+    order: 1;
+}
+
+
+fieldset{
+    border: none;
+    display: flex;
+    gap: 10px;
+}
+
+#nationality{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.signup button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--color-secondary);
+}
+
+.signup button:hover{
+    cursor: pointer;
+    background-color: var(--color-tertiary);
+}
+
+.extra-signup{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
